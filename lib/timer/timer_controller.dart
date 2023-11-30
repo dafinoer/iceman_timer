@@ -2,7 +2,7 @@ import 'package:rxdart/rxdart.dart';
 import 'dart:async';
 
 class TimerController {
-  late PublishSubject<int> _publishSubject;
+  late final PublishSubject<int> _publishSubject;
   Timer? _timer;
 
   TimerController() {
