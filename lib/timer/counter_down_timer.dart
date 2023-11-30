@@ -11,8 +11,7 @@ class CounterDownTimer extends TimerController {
   @override
   String format(int hour, int minute, int second) {
     var minuteValue = minute.toString();
-    var secondValue
-    = second.toString();
+    var secondValue = second.toString();
 
     if (minute < 10) {
       minuteValue = minuteValue.padLeft(2, '0');
